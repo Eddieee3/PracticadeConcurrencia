@@ -1,4 +1,4 @@
-package org.example.ejemploconcurrencia1;
+package org.example.ejemploconcurrencia1.model;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

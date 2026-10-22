@@ -1,0 +1,146 @@
+.raiz {
+    -fx-background-color: #f3f4f6;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+}
+
+.titulo {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+.subtitulo {
+    -fx-text-fill: #6b7280;
+}
+
+.seccion {
+    -fx-font-weight: bold;
+    -fx-text-fill: #374151;
+}
+
+/* Tarjetas de vendedores y panel del supervisor */
+.tarjeta, .panel {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 10;
+    -fx-padding: 14;
+}
+
+.tarjeta-titulo {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+.vendido {
+    -fx-font-weight: bold;
+    -fx-text-fill: #374151;
+}
+
+.supervisor-texto {
+    -fx-text-fill: #4b5563;
+}
+
+.total {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #15803d;
+}
+
+/* Etiqueta de estado: cambia de color segun lo que hace el vendedor */
+.estado {
+    -fx-padding: 4 10;
+    -fx-background-radius: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.estado-esperando {
+    -fx-background-color: #9ca3af;
+}
+
+.estado-atendiendo {
+    -fx-background-color: #2563eb;
+}
+
+.estado-esperando_caja {
+    -fx-background-color: #d97706;
+}
+
+.estado-registrando {
+    -fx-background-color: #7c3aed;
+}
+
+.estado-terminado {
+    -fx-background-color: #16a34a;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #2563eb;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4;
+}
+
+.progreso-general > .bar {
+    -fx-background-color: #16a34a;
+}
+
+.text-area {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 12px;
+}
+
+/* Botones */
+.boton-primario, .boton-secundario {
+    -fx-background-radius: 6;
+    -fx-padding: 8 18;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.boton-primario {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+
+.boton-primario:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.boton-secundario {
+    -fx-background-color: white;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 6;
+    -fx-text-fill: #374151;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #f9fafb;
+}
+
+/* Totales: lo vendido por los vendedores contra lo registrado en caja */
+.total-vendido {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1d4ed8;
+}
+
+.total-error {
+    -fx-text-fill: #dc2626;
+}
+
+/* Explicacion de por que se usa synchronized */
+.panel-explicacion {
+    -fx-background-color: #eff6ff;
+    -fx-background-radius: 10;
+    -fx-border-color: #bfdbfe;
+    -fx-border-radius: 10;
+    -fx-padding: 12 14;
+}
+
+.panel-explicacion-error {
+    -fx-background-color: #fef2f2;
+    -fx-border-color: #fecaca;
+}
